@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+}
+.main-container{
+    min-width:600px;
+    max-width:1920px;
+}
+.download-bar{
+    width: 100%;
+    height: 3vh;
+    background-color: #0D1326;
+}
+.header-block{
+    width: 100%;
+    height:97vh;
+    background:url(../images/b3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pet-block{
+    width: 100%;
+    height:70vh;
+}
+.arrivals-birds-block{
+    width: 100%;
+    height:30vh;
+    background-color: #6A67CE;
+}
+.services-block{
+    width: 100%;
+    height:70vh;
+}
+.news-block{
+    width: 100%;
+    height:97vh;
+    background:url(../images/s1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.trainers-block{
+    width: 100%;
+    height:70vh;
+}
+.gallery-block{
+    width: 100%;
+    height:97vh;
+    background-color: #333333;
+}
+.clients-block{
+    width: 100%;
+    height:60vh;
+}
+.subscribe-block{
+    width: 100%;
+}
+.subscribe-block__descr{
+    width: 100%;
+    height:25vh;
+    background-color: #6A67CE;
+}
+.subscribe-block__form{
+    width: 100%;
+    height:25vh;
+}
+.partners-block{
+    width: 100%;
+    height:25vh;
+    background-color: #333333;
+}
+.map{
+    width: 100%;
+    height:25vh;
+}
+.contact-block{
+    width: 100%;
+    height:97vh;
+}
+.footer{
+    width: 100%;
+    height:15vh;
+    background-color: #6A67CE;
+}

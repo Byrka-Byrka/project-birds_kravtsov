@@ -7,6 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/7c30501885.js" crossorigin="anonymous"></script>
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+
+
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -18,6 +25,7 @@
                 <div class="nav__wrapper">
                     <h2 class="nav__title">Birds Care</h2>
                         <div class="nav__anchors">
+                            <div class="burger-icon">≡</div>
                             <a class="nav__anchor" href="#Home">Home</a>
                             <a class="nav__anchor" href="#About">About</a>
                             <a class="nav__anchor" href="#Service">Service</a>
@@ -28,6 +36,7 @@
                     <button class="nav__button button" type="button">Login</button>
                 </div>
             </div>
+            
             <div class="header-block__descr">
                 <div class="header-block__descr-wrapper">
                     <div class="header-block__subtitle">
@@ -285,7 +294,7 @@
                     </div>
                     <div class="trainer__desc">
                         <div class="trainer__name">
-                            Zeox Marshall
+                            Marshall Zeox
                         </div>
                         <div class="trainer__profession">
                             Trainer
@@ -312,21 +321,154 @@
     </div>
     <div class="gallery-block">
         <a name="Gallery"></a>
+        <h1 class="header header_white">Birds Gallery</h1>
+        <div class="gallery-block__wrapper">
+            <div class="gallery-block__grid-box">
+                <div class="gallery-block__image gallery-block__image-top-big">
+                </div>
+                <div class="gallery-block__image gallery-block__image-top-small">
+                </div>
+                <div class="gallery-block__image gallery-block__image-bot-left">
+                </div>
+                <div class="gallery-block__image gallery-block__image-bot-center">
+                </div>
+                <div class="gallery-block__image gallery-block__image-bot-right">
+                </div>
+            </div>
+            
+        </div>
 
     </div>
     <div class="clients-block">
-
+        <h1 class="header">Our Clients</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-block w-100" src="..." alt="First slide">
+                    <div class="clients-block__carousel-wrapper">
+                        <div class="clients-block__image-wrapper">
+                            <img class="clients-block__image" src="./images/c2.jpg" alt="">
+                        </div>
+                        <div class="clients-block__comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit, culpa aliquid quae in architecto, velit ex debitis quisquam similique cupiditate.
+                        </div>
+                        <div class="clients-block__name">
+                            Orkand Keend
+                        </div>
+                        <div class="clients-block__descr">
+                            Our Client
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-block w-100" src="..." alt="Second slide">
+                    <div class="clients-block__carousel-wrapper">
+                        <div class="clients-block__image-wrapper">
+                            <img class="clients-block__image" src="./images/c1.jpg" alt="">
+                        </div>
+                        <div class="clients-block__comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit, culpa aliquid quae in architecto, velit ex debitis quisquam similique cupiditate.
+                        </div>
+                        <div class="clients-block__name">
+                            jenya Vtoroy
+                        </div>
+                        <div class="clients-block__descr">
+                            Our Client
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+               <div class="d-block w-100" src="..." alt="Third slide">
+                    <div class="clients-block__carousel-wrapper">
+                        <div class="clients-block__image-wrapper">
+                            <img class="clients-block__image" src="./images/c3.jpg" alt="">
+                        </div>
+                        <div class="clients-block__comment">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit, culpa aliquid quae in architecto, velit ex debitis quisquam similique cupiditate.
+                        </div>
+                        <div class="clients-block__name">
+                            Iigor Tretyi
+                        </div>
+                        <div class="clients-block__descr">
+                            Our Client
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
     </div>
     <div class="subscribe-block">
         <div class="subscribe-block__descr">
+                <div class="subscribe-block__image">
 
+                </div>
+                <div class="subscribe-block__descr-cont">
+                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor
+                </div>
         </div>
         <div class="subscribe-block__form">
+            <h1 class="header">Subscribe Us</h1>
+            <div class="subscribe-block__form-wrapper">
+                <input class="subscribe-block__input" type="text" placeholder="First name">
+                <input class="subscribe-block__input" type="email" placeholder="Email">
+                <button class="button" type="submit">
+                    Subscribe
+                </button>
+            </div>
 
         </div>
     </div>
     <div class="partners-block">
         <a name="Team"></a>
+        <h1 class="header header_white">Our Services</h1>
+        <div class="partners-block__wrapper">
+            <div class="partners-block__partner partner">
+                <img src="./images/lo1.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo2.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo3.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo4.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo5.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo2.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo3.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo1.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo5.jpg" alt="">
+            </div>
+            <div class="partners-block__partner partner">
+                <img src="./images/lo4.jpg" alt="">
+            </div>
+        </div>
 
     </div>
     <div class="map-block">
@@ -334,18 +476,81 @@
     </div>
     <div class="contact-block">
         <a name="Contact"></a>
+        <h1 class="header">Contact Us</h1>
         <div class="contact-block__contacts">
-
+            <div class="contact-block__contact contact">
+                <div class="contact__descr">
+                    Address
+                </div>
+                <div class="contact__info">
+                    Melbourne,Brisbane
+                </div>
+                <div class="contact__info">
+                    QLD 4101, Australia
+                </div>
+            </div>
+            <div class="contact-block__contact contact">
+                <div class="contact__descr">
+                    Phone
+                </div>
+                <div class="contact__info">
+                    +(000) 123 4565 32
+                </div>
+                <div class="contact__info">
+                    +(010) 123 455 354
+                </div>
+            </div>
+            <div class="contact-block__contact contact">
+                <div class="contact__descr">
+                    Email Us
+                </div>
+                <div class="contact__info">
+                    info@example1.com
+                </div>
+                <div class="contact__info">
+                    info@example2.com
+                </div>
+            </div>
         </div>
-        <div class="contact-block__form">
-
+        <div class="contact-block__contact-form">
+            <div class="contact-form__wrapper">
+                <input class="contact-form__input contact-form__input_lt" type="text" placeholder="First Name" name="" id="">
+                <input class="contact-form__input contact-form__input_lc " type="text" placeholder="Last Name" name="" id="">
+                <input class="contact-form__input contact-form__input_rt" type="tel" placeholder="Phone" name="" id="">
+                <input class="contact-form__input contact-form__input_rc" type="email" placeholder="Email" name="" id="">
+                <input class="contact-form__input contact-form__input_message " type="text" placeholder="Message.." name="" id="">
+            </div>
+            <button class="button button_width" type="submit">
+                Send
+            </button>
         </div>
     </div>
     <div class="footer">
-        
+        <div class="footer__wrapper">
+            <div class="footer__info">© 2018 Birds Care. All Rights Reserved | Made crooked by <a class="footer__info-link" href="">Kravtsov Alexander</a></div>
+            <div class="footer__icons-wrapper">
+                <div class="footer__icons">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="footer__icons">
+                    <i class="fas fa-dove"></i>
+                </div>
+                <div class="footer__icons footer__ok">
+                    <img class="footer__ok" src="./images/footer.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-space">
+
     </div>
 </div>
 
 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<scrip src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></scrip>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>

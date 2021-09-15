@@ -92,7 +92,7 @@ html{
     min-height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:s;
 }
 .header-block__subtitle{
     font-family: 'Montserrat', sans-serif;
@@ -762,11 +762,10 @@ justify-content: space-around;
     align-items: center;
 }
 .footer__ok{
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     position: relative;
-    top: -4px;
 }
 .footer-space{
     height: 7vh;
@@ -1410,11 +1409,10 @@ html{
         align-items: center;
     }
     .footer__ok{
-        width: 65px;
-        height: 65px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         position: relative;
-        top: -4px;
     }
     .footer-space{
         height: 7vh;
